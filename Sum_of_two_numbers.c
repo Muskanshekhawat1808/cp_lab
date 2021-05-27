@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
     {
-    	int i,j;
-    	char xy;
+    	int i,j,k;
     i=10;
-    j=11;
-    
-    	printf("sum of i and j: %d",i+j);	
+    j=5;
+    k=i+j; 	
+    	
+    printf(" sum of i and j: %d",k);	 
     return 0;
-    	}
+    }
