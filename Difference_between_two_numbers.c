@@ -1,11 +1,12 @@
-#include <stdio.h>
+
+#include<stdio.h>
 int main()
     {
-    	int i,j;
-    	char xy;
-    i=11;
+    	int i,j,k;
+    i=10;
     j=5;
-    
-    	printf("difference between i and j: %d",i-j);	
+    k=i-j; 	
+    	
+    printf(" difference between i and j: %d",k);	 
     return 0;
-    	}
+    }
